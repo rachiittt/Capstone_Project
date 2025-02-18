@@ -7,13 +7,21 @@
     padding: 0;
     margin: 0;
     background-color: rgba(8, 8, 8, 1);
-    color: rgba(222, 222, 222, 1);
+    color: rgb(201, 201, 201);
 }
 
 :root {
     --primary-font: 'Roboto Serif', serif;
     --secondary-font: 'Public Sans', serif;;
     --header-font: 'Source Serif 4', serif;
+}
+
+.yyy {
+    transition: scale 0.3s ease-in-out;
+}
+
+.yyy:hover {
+    scale: 1.2;
 }
 
 body {
@@ -31,6 +39,15 @@ nav {
     color: var(--primary-font-color);
     padding-top: 16px;
     padding-bottom: 16px;
+}
+.nav-link{
+    transition: scale 0.2s;
+}
+.nav-link:hover{
+    scale:1.2;
+    color: azure;
+    transition: scale 0.2s ;
+    cursor: pointer;
 }
 
 nav h1{
@@ -67,3 +84,38 @@ nav ul>li:hover {
     width: 800px;
 }
 
+.gallery-row-1 {
+    display: flex;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 48px;
+    padding-bottom: 48px;
+}
+
+.gallery-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.gallery-card h1 {
+    color: var(--primary-font-color);
+    font: 400 20px/24px var(--secondary-font);
+}
+
+.gallery-card p {
+    color: var(--primary-font-color);
+    font: 400 17px/24px rgba(222, 222, 222, 0.62);
+}
+.gallery-card{
+    transition: all 0.2s 
+}
+
+.gallery-card:hover{
+    scale:1.1
+}
