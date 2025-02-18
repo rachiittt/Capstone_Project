@@ -50,3 +50,20 @@ nav ul {
 nav ul>li:hover {
     cursor: pointer;
 }
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 48px;
+}
+
+#hero-section h1{
+    text-align: center;
+    font: 700 120px/120px var(--primary-font);
+    color: var(--primary-font-color);
+    width: 800px;
+}
+
