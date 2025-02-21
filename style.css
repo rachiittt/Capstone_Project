@@ -142,3 +142,18 @@ nav ul>li:hover {
     font: 400 24px/32px var(--secondary-font);
     width: 648px;
 }
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+#about-description {
+    text-align: center;
+    color: var(--primary-font-color);
+    font: 400 48px/52px var(--primary-font);
+    width: 900px;
+}
