@@ -157,3 +157,28 @@ nav ul>li:hover {
     font: 400 48px/52px var(--primary-font);
     width: 900px;
 }
+#skills-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+}
+
+#skills-section h1 {
+    color: var(--primary-font-color);
+    text-align: left;
+}
+
+#skills p {
+    width: 300px;
+    color: var(--primary-font-color);
+    font: 400 20px/24px var(--secondary-font);
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
