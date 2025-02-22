@@ -178,7 +178,7 @@ nav ul>li:hover {
     text-align: left;
 }
 
-#skills p {
+#skills ul li {
     width: 300px;
     color: var(--primary-font-color);
     font: 400 20px/24px var(--secondary-font);
