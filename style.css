@@ -156,7 +156,14 @@ nav ul>li:hover {
     color: var(--primary-font-color);
     font: 400 48px/52px var(--primary-font);
     width: 900px;
+    transition: scale 0.3s ease-in-out;
 }
+
+#about-description:hover {
+    scale: 1.1;
+    color: rgb(170, 164, 164);
+}
+
 #skills-section {
     display: flex;
     justify-content: space-between;
