@@ -189,3 +189,31 @@ nav ul>li:hover {
     justify-content: space-evenly;
     gap: 16px;
 }
+
+#discover {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(8, 8, 8, 0.7) 40%, rgba(199, 199, 199, 0.11) 80%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+#discover-text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 224px;
+    padding-bottom: 224px;
+}
+
+#discover-text h1 {
+    color: rgba(222, 222, 222, 1);
+    font: 700 120px/120px var(--primary-font);
+    width: 704px;
+}
+
+#discover-text p {
+    color: rgba(222, 222, 222, 0.5);
+    font: 400 24px/32px var(--secondary-font);
+    width: 704px;
+}
