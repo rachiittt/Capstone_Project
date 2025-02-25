@@ -224,6 +224,8 @@ nav ul>li:hover {
     gap: 16px;
     padding: 24px;
     background-color: rgba(204, 204, 204, 0.12);
+
+    
 }
 
 .user-info-container {
