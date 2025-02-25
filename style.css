@@ -225,12 +225,18 @@ nav ul>li:hover {
     padding: 24px;
     background-color: rgba(204, 204, 204, 0.12);
 
-    
+
+
+    /* kmnk */
 }
 
 .user-info-container {
     display: flex;
-    gap: 12px;
+    gap: 13px;
+
+
+    
+
 }
 
 .user-info-container img {
